@@ -1,0 +1,7 @@
+python main.py -i "IMG_4018.MOV" -m benchmark -o "benchmark_results.txt"
+
+
+python main.py -i "IMG_4018.MOV" -r 1280x720 -o "output_video.mp4" -m single
+
+
+python graph.py -d benchmark_results.txt -i graph.png
